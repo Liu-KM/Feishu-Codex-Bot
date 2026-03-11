@@ -12,6 +12,7 @@ __pycache__/
 bot.log
 *.log
 .feishu_codex_sessions.json
+hello.txt
 dist/
 build/
 *.egg-info/
