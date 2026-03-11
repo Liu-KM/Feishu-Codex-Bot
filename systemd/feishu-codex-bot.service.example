@@ -1,0 +1,13 @@
+[Unit]
+Description=Feishu Codex Bot
+After=network.target
+
+[Service]
+Type=simple
+WorkingDirectory=/opt/feishu-codex-bot
+ExecStart=/opt/feishu-codex-bot/.venv/bin/python /opt/feishu-codex-bot/feishu_codex_bot.py
+Restart=always
+RestartSec=5
+
+[Install]
+WantedBy=multi-user.target

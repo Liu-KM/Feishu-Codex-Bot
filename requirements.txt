@@ -1,0 +1,7 @@
+setuptools
+wheel
+requests
+requests_toolbelt
+pycryptodome
+websockets
+httpx
